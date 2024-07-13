@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <section>
+        <form id="addPosts">
+
+            <div id="addAlumni">
+                <h3>Add Alumni</h3>
+            </div>
+            <div class="form-control">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="first and last name">
+                <small class="small">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+                <small class="small">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label>
+                <input type="number" id="age" >
+                <small class="small">Error message</small>
+            </div>
+            <div class="postal">
+                <label for="address">Address</label>
+                <textarea id="address"></textarea>
+                <small class="small">Error message</small>
+            </div>
+            <div id="btn-btn">
+                <button type="submit" id="btn-2">Submit</button>
+            </div>
+        </form>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
